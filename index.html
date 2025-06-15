@@ -4,70 +4,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
  </head>
  <body>
-    <div>
+    <div class="header-container">
         <header>
-            <img src="./images/logonike.png" alt="">
-            <ul>
-                <li>Main page</li>
-                <li>Benefits</li>
-                <li>Advantages</li>
-                <li>Reviews</li>
-                <li>Contacts</li>
-                <li>Order</li>
-            </ul>
-            <ul>
-                <li>Ua  Eng </li>
-            </ul>
+            <img src="./images/logonike.png" alt="" class="logonike">
+            <nav class="navigation">
+                <ul class="info-list">
+                    <li class="info-item">Main page</li>
+                    <li class="info-item">Benefits</li>
+                    <li class="info-item">Advantages</li>
+                    <li class="info-item">Reviews</li>
+                    <li class="info-item">Contacts</li>
+                    <li class="info-item">Order</li>
+                </ul>
+                <ul class="ua_eng"> 
+                    <li>Ua Eng</li>
+                </ul>
+            </nav>
         </header>
     </div>
     <main>
-        <div>
+        <div class="container-title">
             <section>
-                <img src="./images/logonike.png" alt="">
-                <p>С&R</p>
-                <h1>ColoRawe</h1>
-                <h2>Your dream Nike</h2>
-                <p>On this site you can find custom Nike sneakers of your dreams. 
+                <img src="./images/logonike.png" alt="" class="title-logo">
+                <p class="teitle-logo-text">С&R</p>
+                <h1 class="title-title">ColoRawe</h1>
+                <h2 class="title-dream">Your dream Nike</h2>
+                <p class="title-text">On this site you can find custom Nike sneakers of your dreams. 
                     The original company caт`t create such beautiful 
                     sneakers as we do.
                     Good luck finding your way in the world of custom sneakers.
                 </p>
-                <button>Buy my Nike</button>
+                <button class="title-button">Buy my Nike</button>
             </section>
         </div>
         <div>
             <section>
-                <ul>
-                    <li>
-                        <h3>
-                            Premium
-                            Quality
-
-                        </h3>
+                <ul class="galery-list">
+                    <li class="galery-item">
+                        <h3>Premium Quality</h3>
                         <img src="./images/zero.png" alt="">
                     </li>
-                    <li>
+                    <li class="galery-item">
                         <img src="./images/balonchic.png" alt="">
-                        <h3>
-                            Indelible 
-                            paint
-                        </h3>
+                        <h3>Indelible paint</h3>
                     </li>
-                    <li>
-                        <h3>
-                            Fast 
-                            shipping
-                        </h3>
+                    <li class="galery-item">
+                        <h3>Fast shipping</h3>
                         <img src="./images/bus.png" alt="">
                     </li>
                 </ul>
             </section>
         </div>
+         <div class="container-reviews">
+            <section>
+                <h3 class="reviews-title">Reviews</h3>
+                <ul class="reviews-list">
+                    <li class="reviews-item"><div></div></li>
+                    <li class="reviews-item"><div></div></li>
+                    <li class="reviews-item"> <div></div> </li>
+                </ul>
+            </section>
+        </div>
+        <div class="container-order">
+            <section>
+                <ul class="order-list">
+                    <li class="order-item"><input type="email">Write your email</li>
+                    <li class="order-item"><input type="text">Your Country</li>
+                    <li class="order-item"><input type="text">Your City</li>
+                    <li class="order-item"><input type="text">Your Adress</li>
+                </ul>
+            </section>
+            <button class="order-button">Order my Nike</button>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <ul class="qestion-list">
+            <li class="qestion-item">Have a question?</li>
+            <li class="qestion-item">Have a proposal for cooperation?</li>
+            <li class="qestion-item">Advertising questions?</li>
+        </ul>
+        <ul class="footer-list">
+            <li class="footer-item">ColoRawe_support@gmail.com</li>
+            <li class="footer-item">ColoRawe_Cooperation@gmail.com</li>
+            <li class="footer-item">ColoRawe_Advertising@gmail.com</li>
+        </ul>
+    </footer>
  </body>
  </html>
