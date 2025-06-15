@@ -1,4 +1,44 @@
-html{
+.header-container{
     background-color: #012D63;
-    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0px 168px 0px 165px;
 }
+.logonike{
+    width: 100px;
+    height: 60px;
+}
+.info-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.white{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+ .info-item{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #C7C7C7; 
+}
+ .ua-item{
+    color: #C7C7C7;;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+ }
+ .enf-item{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+ }
+ .container-title{
+    background-image: url(./images/title.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 858px;
+ }
