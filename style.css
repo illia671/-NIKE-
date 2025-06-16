@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between; 
-    padding: 0px 168px 0px 165px;
+    padding: 5px 152px 5px 165px;
 }
 .logonike{
     width: 100px;
@@ -39,6 +39,371 @@
  .container-title{
     background-image: url(./images/title.png);
     background-repeat: no-repeat;
-    width: 1440px;
-    height: 858px;
+    width: 100%;
+    height: 1100px;
+    background-size: 100% 1100px;
+    padding: 94px 0px 0px 156px;
+    color: white;
  }
+ .title-logo{
+    width: 160px;
+    height: 120px;
+    margin: 0 0 0 14px;
+ }
+ .teitle-logo-text{
+    font-family: "PT Serif", sans-serif;
+    font-size: 48px;
+    margin-left: 41px;
+ }
+ .title-title{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 144px;
+    line-height: 100%;
+ }
+.title-title2{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 75px;
+    line-height: 100%;
+}
+.title-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin-top: 12px;
+}
+.title-button{
+    width: 254px;
+    height: 67px;
+    margin-top: 41px;
+    background-color: #8E32C6;
+    border-radius: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: white;
+}
+.container-galery{
+    background-image: url(./images/Group\ 8\ 1.png);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 700px;
+    background-size: 100% 700px;
+    background-position: center;
+    border: black 0.1px solid;
+}
+.galery-list{
+    border: #8E32C6 solid 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+    margin: 105px 165px 105px 165px;
+}
+.zero{
+    width: 240px;
+    height: 240px;
+    margin: 4px 50px 25px 50px;
+}
+.galery-text1{
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 25px 91px;
+    text-align: center;
+}
+.galery-text2{
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 0 135px 0 135px;
+    text-align: center;
+}
+.galery-text3{
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+    font-size: 36px;
+    line-height: 100%;
+    margin: 22px 94px; 
+    text-align: center;
+}
+.balonchic{
+    width: 240px;
+    height: 240px;
+    margin: 25px 95px;
+}
+.bus{
+    width: 240px;
+    height: 240px;
+}
+.line{
+    margin: 25px 0px 25px 0px;
+}
+.container-reviews{
+    width: 100%;
+    height: 520px;
+    background-image: url(./images/Group\ 6\ 1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 606px;
+    background-position: center;
+    border: black 0.1px solid;
+    color: white;
+}
+.reviews-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    margin: 24px 245px 24px 245px;
+}
+/*.reviews-list::before{
+    content: " ";
+    display: block;
+    width: 340px;
+    height: 380px;
+    background-image: url(./images/цветы\ 2\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-right: 350px;
+    margin-top: 47px;
+}*/
+.reviews-title{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    margin-top: 24px;
+}
+.john{
+    width: 255px;
+    height: 293px;
+    background-image: url(./images/Rectangle\ 8.png);
+    background-repeat: no-repeat;
+    padding: 40px 14px 0 14px;
+    box-shadow: 0px 30px 0px -13px #61337C;
+    box-shadow: 0px 14px 0px -5px #9159B1;
+
+}
+.elizabeth{
+    width: 255px;
+    height: 293px;
+    background-image: url(./images/Rectangle\ 9.png);
+    padding: 40px 14px 0 14px;
+    background-repeat: no-repeat;
+    box-shadow: 0px 30px 0px -13px #61337C;
+    box-shadow: 0px 14px 0px -5px #9159B1;
+
+}
+.tom{
+    width: 255px;
+    height: 293px;
+    background-image: url(./images/Rectangle\ 10.png);
+    background-repeat: no-repeat;
+    padding: 40px 14px 0 14px;
+    box-shadow: 0px 30px 0px -13px #732F26;
+    box-shadow: 0px 14px 0px -5px #B95A4C;
+}
+ .john-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+ }
+ .john-date{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    color: #D8D8D8;
+ }
+ .john-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 71px;
+ }
+ .jhon-name{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+ }
+ .jhon-with{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #D8D8D8;
+ }
+ .jhon-logo{
+    margin: 5px;
+ }
+ .elizabeth-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+ }
+ .elizabeth-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 71px;
+ }
+ .elizabeth-with{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #D8D8D8;
+ }
+ .elizabeth-logo{
+    margin: 5px;
+ }
+ .elizabeth-date{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    color: #D8D8D8;
+ }
+ .tom-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+ }
+ .tom-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 71px;
+ }
+ .tom-with{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #D8D8D8;
+ }
+ .tom-logo{
+    margin: 5px;
+ }
+ .tom-date{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 8px;
+    color: #D8D8D8;
+ }
+ .container-order{
+    background-image: url(./images/Group\ 2\ 1.png);
+    background-repeat: no-repeat;
+    background-position: center; 
+    width: 100%;
+    height: 509px;
+    background-size: 100% 609px;
+ }
+ .order-title{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+ }
+ .order-list{
+    margin-top: 33px;
+ }
+ .order-item{
+    width: 580px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #959595;
+    padding: 12px 0 13px 25px;
+    font-family: "Roboto", sans-serif;
+    font-size: 28px;
+    line-height: 100%;
+ }
+ .order-item1{
+    width: 690px;
+    height: 60px;
+    border-radius: 50px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 12px 0 13px 25px;
+    font-family: "Roboto", sans-serif;
+    color: #959595;
+    font-size: 28px;
+    line-height: 100%;
+
+ }
+ .order-button{
+    width: 248px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    height: 68px;
+    border-radius: 16px;
+    background-color: #8E32C6;
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    border: #8E32C6 0px;
+
+ }
+.fontss-container{
+    background-color: #021635;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom:#9B9B9B 1px solid;
+    
+}
+.qestion-item{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.footer-item{
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.last-div{
+    background-color: #021635;
+    color: white;
+}
+.footer-container{
+    padding: 45px 165px;
+}
+.cont-foter{
+    padding: 24px 165px;
+}
+.info-footer{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 100%;
+    margin-bottom: 10px;
+}
+.logofooter{
+    width: 108px;
+    height: 81px;
+}
+.СR{
+    font-family: "PT Serif", sans-serif;
+    font-size: 24px;
+    line-height: 100%;
+}
+.cont-foter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.plant{
+    width: 340px;
+    height: 380px;
+    top: 1694px;
+    left: -114px;
+    background-image: url(./images/цветы\ 2\ 1.png);
+    background-repeat: no-repeat;
+}
